@@ -1,0 +1,21 @@
+.container {
+  padding: 1em;
+  transition: big 0.3s;
+  overflow-y: auto;
+}
+.container.active {
+  animation: 1s ease big;
+  height: 300px;
+}
+.empty {
+  color: gray;
+}
+
+@keyframes big {
+  from {
+    height: 0px;
+  }
+  to {
+    height: 300px;
+  }
+}

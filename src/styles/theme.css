@@ -1,0 +1,40 @@
+/* dark-theme */
+.dark_theme {
+  background-color: rgb(17 40 80);
+}
+.dark_theme .contents {
+  background-color: #222;
+  color: white;
+}
+.dark_theme .input_bg {
+  background-color: rgb(20, 20, 20);
+}
+.dark_theme .input_bg input {
+  background-color: #eee;
+}
+.dark_theme input[type="checkbox"] + label:before {
+  border: 1px solid white;
+}
+.dark_theme input[type="checkbox"]:checked + label:after {
+  color: white;
+}
+
+/* light-theme */
+.light_theme {
+  background-color: cornflowerblue;
+}
+.light_theme .contents {
+  background-color: white;
+  color: black;
+}
+.light_theme .input_bg {
+  background-color: #eee;
+}
+
+.light_theme input[type="checkbox"] + label:before {
+  border: 1px solid black;
+}
+
+.light_theme input[type="checkbox"]:checked + label:after {
+  color: black;
+}

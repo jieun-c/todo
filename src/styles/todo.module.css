@@ -1,0 +1,70 @@
+.todo_box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.5em;
+}
+
+/* sample */
+input[type="checkbox"] {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  border: 0;
+  visibility: hidden;
+}
+input[type="checkbox"] + label {
+  display: inline-block;
+  position: relative;
+  padding-left: 26px;
+  cursor: pointer;
+  flex: 1;
+}
+input[type="checkbox"] + label:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 3px;
+  width: 15px;
+  height: 15px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+input[type="checkbox"]:checked + label:after {
+  content: "v";
+  position: absolute;
+  top: 5px;
+  left: 4px;
+  width: 20px;
+  height: 20px;
+  border-radius: 5px;
+}
+
+input[type="checkbox"] + label span {
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 26px;
+  letter-spacing: -1px;
+}
+
+.todo_box:hover span {
+  color: orange;
+}
+
+.todo_box label span.completed_todo {
+  text-decoration: line-through;
+  opacity: 0.3;
+}
+
+.todo_box button {
+  all: unset;
+  cursor: pointer;
+  transition: transform 0.5s;
+}
+.todo_box button:hover {
+  transform: rotate(180deg);
+}

@@ -1,0 +1,30 @@
+/* todoinput */
+.input_bg {
+  padding: 0.7em 1em;
+}
+
+.input_box {
+  display: flex;
+  height: 40px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.input_box input {
+  border: none;
+  flex: 1;
+  text-indent: 0.5em;
+}
+.input_box input:focus {
+  outline: none;
+  border: 1px solid blue;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.input_box button {
+  border: none;
+  background-color: orange;
+  color: white;
+  width: 100px;
+  cursor: pointer;
+}
