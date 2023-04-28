@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/jieun-c/todo/static/css/main.3b9b2d1e.css",
+    "main.js": "/jieun-c/todo/static/js/main.728caf37.js",
+    "index.html": "/jieun-c/todo/index.html",
+    "main.3b9b2d1e.css.map": "/jieun-c/todo/static/css/main.3b9b2d1e.css.map",
+    "main.728caf37.js.map": "/jieun-c/todo/static/js/main.728caf37.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3b9b2d1e.css",
+    "static/js/main.728caf37.js"
+  ]
+}
