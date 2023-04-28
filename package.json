@@ -1,6 +1,6 @@
 {
-  "homepage": "https://github.com/jieun-c/todo",
-  "name": "todoapp",
+  "homepage": "https://jieun-c.github.io/todo",
+  "name": "todo",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
